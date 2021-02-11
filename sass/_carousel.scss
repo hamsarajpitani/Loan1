@@ -1,0 +1,61 @@
+
+/* .carousel-inner{
+    height: 80vh;
+}
+
+.carousel-item{
+    height: 100%;
+} */
+
+.carousel{
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-top: 4rem;
+    &-caption{
+        border-radius: 5px;
+        background-color: rgba($color: #000000, $alpha: .5);
+    }
+}
+
+.carousel-inner {
+    position: relative;
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.carousel-item{
+    
+  
+    img{
+        width: 100%;
+        margin: 10px auto;
+        background-position: top;
+        object-fit:cover;
+        
+    }
+}
+
+@media (max-width: 767.98px) { 
+
+   
+    .carousel-inner {
+       
+        width: 100%;
+     
+    }
+    
+
+.carousel-item{
+    
+  
+    img{
+        width: 100%;
+        margin: 0 auto;
+        background-position: top;
+        object-fit:cover;
+        
+    }
+}
+}

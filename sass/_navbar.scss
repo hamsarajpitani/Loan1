@@ -1,0 +1,49 @@
+
+.navbar{
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.nav-link{
+    margin-left: 1.3rem;
+    text-transform: capitalize;
+   // font-family: 'Noto Sans JP', sans-serif;
+   // font-family: 'Josefin Sans', sans-serif;
+    //font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.nav-link.active{
+    color: #fff;
+   
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    background-color: black;
+    border-radius: 10px;
+    text-transform: capitalize;
+
+    a{
+        margin-bottom: .4rem;
+        &:hover{
+            background-color: blue;
+            border-radius: 5px;
+        }
+    }
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    
+  
+}
+
