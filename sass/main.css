@@ -176,11 +176,11 @@ h1 {
 }
 
 .calculator__btn {
-  padding: 1rem;
+  padding: .9rem;
   border-radius: 50%;
   position: fixed;
-  right: 2rem;
-  bottom: 3rem;
+  right: 1.7rem;
+  bottom: 2.3rem;
   -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
   background-image: linear-gradient(109.6deg, #3ea1db 11.2%, #5d34ec 100.2%);
